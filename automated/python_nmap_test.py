@@ -10,9 +10,9 @@ portscanner = nmap.PortScanner()
 
 portscannerH = nmap.PortScannerHostDict()
 
-scan = portscanner.scan("192.168.1.5","21,22,80")
+scan = portscanner.scan("192.168.24.5", "21,22,80")
 print(scan)
-print("分隔".center(40,"="))
+print("分隔".center(40, "="))
 
 print(len(scan))    # 键的总数
 
